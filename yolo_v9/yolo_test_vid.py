@@ -12,8 +12,8 @@ model = YOLO(MODEL_PATH)
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
-EYE_AR_THRESH = 0.4
-EYE_AR_CONSEC_FRAMES = 3
+EYE_AR_THRESH = 0.45
+EYE_AR_CONSEC_FRAMES = 5
 
 def eye_aspect_ratio(eye):
     A = dist.euclidean(eye[1], eye[5])

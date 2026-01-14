@@ -1,0 +1,39 @@
+# Trained models
+*.yml
+*.npy
+*.pt
+
+# Training data (personal images)
+persons/
+yolo_v9/datasets_yolov8/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Video files
+*.avi
+*.mp4
+
+# dlib model
+*.dat
