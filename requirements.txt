@@ -1,0 +1,27 @@
+# Core dependencies for Face Detection Attendance System
+# Tested with Python 3.11
+
+# Web framework
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Computer Vision
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+
+# Face detection & landmarks
+dlib>=19.24.0
+imutils>=0.5.4
+
+# Data handling
+numpy>=1.24.0
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Email (for notifications)
+# smtplib is built-in
+
+# YOLO (optional - for YOLO-based recognition)
+ultralytics>=8.0.0
+torch>=2.0.0
+torchvision>=0.15.0
